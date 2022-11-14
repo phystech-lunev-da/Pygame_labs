@@ -10,8 +10,8 @@ YELLOW = (255, 255, 0)
 
 
 def draw_circle(surface, color, pos, radius):
-    circle(surface, color, pos, radius, 0)
-    circle(surface, BLACK, pos, radius, 1)
+    DEFAULT_CIRCLE(surface, color, pos, radius, 0)
+    DEFAULT_CIRCLE(surface, BLACK, pos, radius, 1)
 
 
 pygame.init()
